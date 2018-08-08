@@ -26,14 +26,6 @@ class StepNav extends React.Component {
         </Steps>
 
         <WhiteSpace/>
-         <Picker
-           data={models}
-           title="选择模板"
-           cascade={false}
-           onChange={v => this.setState({ sValue: v })}
-           onOk={v => this.setState({ sValue: v })}
-         >
-         </Picker>
       </div>
     );
   }
